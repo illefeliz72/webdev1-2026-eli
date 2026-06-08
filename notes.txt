@@ -1,0 +1,57 @@
+HTML - HyperText Markup Language
+
+<h1> Some heading here </h1>
+<h2>Text</h2>
+<h3>Test</h3>
+<h4>Test</h4>
+<h5>Test</h5>
+<h6>Test</h6>
+
+
+<h2>hello</h2>
+<p> some paragraph here </p>
+- tag, element, node
+
+>html doesnt take calculations
+
+------------------------------------------
+
+HTML5
+
+<html>
+<head>
+
+</head>
+
+<body>
+    <div id = "header">
+        <ul>
+            <lin>Link 1>/lib>
+
+    </div>
+    
+    </body>
+
+    </html>
+
+-------------------------------------------
+
+HTML5
+<!DOCTYPE html>
+<html lan ="en"
+<head>
+    <title> htis is tthe title </title>
+    </head>
+        <header>
+
+        </header>
+        </html>
+
+        ================
+
+        boilerplate - starter code
+        < = opening bracket
+        > = closed bracket
+        
+        <meta> tag in HTML provides metadata about a webpage
+        a piece of code that provides hidden information about a webpage to web browsers and search engines
