@@ -5,7 +5,7 @@ README.md:
 
 ## About Me
 
-I am a self taught artist and animator 
+I am a self taught artist and animator. I am a 1st year BSIT student from Lorma. I dont know why i choose this course but 
 
 ## Basic Information
 
@@ -18,40 +18,55 @@ I am a self taught artist and animator
 
 ## My Interests
 
-* Web Development
+* Digital art / animations  (js smthing creative yknow)
+* Internet Culture
+* Technology stuff
+* Online games, Video games
+* Psychological / Internet horror( straight up horror)
+* Music
+* Dark humor
+* Food
+* My ego
+
 
 ## Skills
+* Draw
+* Animate
+* Living
 
 ### Technical Skills
 
-* Digital art
-*
+* Drawing
+* Typing
+* Technology use
+* Character Design
+* Attention to detail (i think?)
 
 ### Soft Skills
 
 * Communication
 * Give ideas
-
+* Moral support
 
 ## My Goals
 
 1. Endure my course until i cant take it any longer,
-2. Have a stable mental support in my life
+2. Have a stable mental support in my life.
 3. Build my own portfolio website, digital-art and animation related software.
 4. I want to be a known Multimedia Artist.
-5. Be Financial Stable.
+5. Be Financially Stable.
 
 ## Favorite Websites
 
-* https://www.google.com
+* https://www.tumblr.com/
 * https://www.github.com
-* https://developer.mozilla.org
+* https://pinterest.com
 
 ## Contact Information
 
-* Email: [your.email@example.com](your.email@example.com)
+* Email: [elifelize.herreria@lorma.edu](elifelize.herreria@lorma.edu)
 * GitHub: https://github.com/illefeliz72
 
 ## Fun Fact
 
-I enjoy learning new technologies and exploring how websites work behind the scenes.
+I enjoy being chronically online 
