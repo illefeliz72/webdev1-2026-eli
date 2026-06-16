@@ -6,58 +6,51 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Profile</title>
     <style>
-        .name{
-            font-weight: bold;
-            font-size: 1rem;
-            color: blue;
-            margin-bottom: -7px;
-        }
-        .role{
-            font-size: .75rem;
-            color: aquamarine;
-            text-transform: uppercase;
-            letter-spacing: 10px;
-
-        }
-        p{
-            font-size: large;
-        }
+       
         .badge {
             text-align: center;
             width: 180px;
-            font-family:Arial, Helvetica, sans-serif;
-            line-height: -16px;
+            font-family: Arial, Helvetica, sans-serif;
+            /* Changed line-height to a normal, positive value */
+            line-height: 1.4; 
+            margin-bottom: 20px;
         }
 
+       
         .avatar {
             width: 80px;
             height: 80px;
             background-color: rgb(107, 32, 32);
             border-radius: 50%;
             margin: 0 auto 12px;
-            font-size:50px;
-            /*
-            margin: 0 0 12px 0;
-            margin:0 0 12px;
-            */
+            font-size: 40px;
             
-
+          
+            display: flex;
+            align-items: center;
+            justify-content: center;
         }
-        .name{
+
+        .name {
             font-weight: bold;
-            font-size: 1rem;
-            color:rgb(182, 68, 68)
+            font-size: 1.2rem;
+            color: rgb(182, 68, 68);
+            margin: 0 0 4px 0;
         }
-        .role{
+
+      
+        .role {
             font-size: .75rem;
-            color:rgb(185, 133, 133);
+            color: rgb(185, 133, 133);
             text-transform: uppercase;
-            letter-spacing: 1px;
-
+            letter-spacing: 2px;
+            margin: 0;
         }
 
-        #amongus{
-
+     
+        #amongus {
+            font-family: Arial, Helvetica, sans-serif;
+            color: #333;
         }
     </style>
 </head>
@@ -65,16 +58,19 @@
 <body>
     <main>
         <div class="badge">
-            <div class="avatar">
-                😒
-                <p>lmfao</p>
-            </div>
+            <div class="avatar">😒</div>
+            
             <p class="name">Damien</p>
             <p class="role">Animator</p>
         </div>
+
         <div id="amongus">
             <p>among us</p>
             <p>among us</p>
+        </div>
+        <div class="stack">
+            <p class="card info"> </p>
+            <p class="card success"></p>
         </div>
     </main>
 </body>
