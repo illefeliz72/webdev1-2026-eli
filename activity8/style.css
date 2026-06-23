@@ -1,0 +1,88 @@
+.profile-card {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    border-color: #000000;
+    border: 1px solid #000000;
+}
+
+.avatar {
+    display: flex;
+    width: 100px;
+    height: 100px;
+    color: rgb(255, 255, 255);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow';
+    background-color: rgb(108, 155, 255);
+    border-radius: 50%;
+    font-size: 1.6rem;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.name {
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: #000000;
+    margin-bottom: -7px;
+    line-height: 1;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.role {
+    font-size: .75rem;
+    color: #b6bcbe;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    line-height: 1;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.pricing-container {
+    display: inline-flex;
+    gap: 20px;
+    justify-content: center;
+    background-color: #f8f9fa;
+    padding: 100px;
+}
+
+.pricing-card {
+    width: 100px;
+    text-align: center;
+    border-color: #000000;
+    border: 1px solid #000000;
+    border-radius: 25px;
+    padding: 60px;
+    max-width: 300px;
+}
+
+.tier {
+    display: block;
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+    color: #a0a0a0;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+.price{
+    display: block;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+.logo{
+    font-weight: bolder;
+    font-size: large;
+    text-align: left;
+}
+.nav-links{
+    display: inline-flex;
+    gap: 100px;
+    align-items: center;
+
+}
