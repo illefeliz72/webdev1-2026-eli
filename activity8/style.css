@@ -129,4 +129,33 @@
     align-items: center;
     justify-content: space-between;
     padding: 10px 20px;
+}.comment-avatar {
+    background-color: #ffffff;
+    padding: 50px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row
+    width: 300px;
+    border-color: #000000;
+    border: 1px solid #000000;
+}
+.ava {
+    display: flex;
+    width: 100px;
+    height: 100px;
+    color: rgb(255, 255, 255);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow';
+    background-color: rgb(108, 155, 255);
+    border-radius: 50%;
+    font-size: 1.6rem;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.nam {
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: #000000;
+    line-height: 1;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
