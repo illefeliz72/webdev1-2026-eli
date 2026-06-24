@@ -1,5 +1,5 @@
 .profile-card {
-    
+
     background-color: #ffffff;
     padding: 40px;
     border-radius: 15px;
@@ -129,16 +129,24 @@
     align-items: center;
     justify-content: space-between;
     padding: 10px 20px;
-}.comment-avatar {
+}
+
+.comment-avatar {
     background-color: #ffffff;
     padding: 50px;
     border-radius: 15px;
     display: flex;
-    flex-direction: row
-    width: 300px;
+    flex-direction: row;
     border-color: #000000;
     border: 1px solid #000000;
 }
+
+.caption {
+
+    display: flex;
+   
+}
+
 .ava {
     display: flex;
     width: 100px;
@@ -152,6 +160,7 @@
     align-items: center;
     margin-bottom: 15px;
 }
+
 .nam {
     font-weight: bold;
     font-size: 1.2rem;
