@@ -30,3 +30,67 @@ ul {
     font-size: 0.95rem;
     transition: opacity 0.2s;
 }
+
+.btn:hover {
+    opacity: 0.9;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 60px;
+    border-bottom: 1px solid #e0e0e0;
+    background-color: #ffffff;
+}
+
+.navbar__logo {
+    font-size: 1.5rem;
+    font-weight: bolder;
+    letter-spacing: 0.5px;
+}
+
+.navbar__links {
+    display: flex;
+    gap: 40px;
+    font-weight: 500;
+}
+
+.navbar__links a:hover {
+    color: #cc4e36;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: auto;
+    padding: 100px 20px;
+}
+
+.hero_text {
+    flex: 1.2;
+}
+
+.hero__eyebrow,
+.skills__eyebrow,
+.contact__eyebrow {
+    font-size: 0.8rem;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    color: #666666;
+    margin-bottom: 12px;
+}
+
+.hero__desc {
+    font-size: 1.15rem;
+    color: #555555;
+    margin-bottom: 30px;
+}
+
+.heropanel {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    flex: 1;
+}
