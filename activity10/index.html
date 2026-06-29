@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Eli Felize — Incompetent Developer</title>
-     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -29,7 +29,7 @@
                 <p class="hero_desc">
                     "My brain speaks in colors, layers, and fluid movement. Forcing it to speak in semicolons, brackets,
                     and rigid logic feels like trying to paint a sunset using a spreadsheet.
-                    I don’t want to debug reality; I want to create it."
+                    I dont want to debug reality; I want to create it."
                 </p>
                 <a href="#contact" class="btn">Get in touch</a>
             </div>
@@ -101,7 +101,14 @@
             <li><a href="#">Twitter</a></li>
         </ul>
     </footer>
+    <script>
+        const toggleBtn = document.querySelector('.navbar__toggle');
+        const navLinks = document.querySelector('.navbar__links');
 
+        toggleBtn.addEventListener('click', () => {
+            navLinks.classList.toggle('is-open');
+        });
+    </script>
 </body>
 
 </html>
