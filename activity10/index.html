@@ -13,11 +13,14 @@
     <header class="navbar">
         <p class="navbar_logo">Eli Felize</p>
         <nav>
+
             <ul class="navbar_links">
+                <button class="navbar__toggle" aria-label="Toggle menu">☰</button>
                 <li><a href="#about">About</a></li>
                 <li><a href="#skills">Skills</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
+            
         </nav>
     </header>
 
@@ -104,7 +107,6 @@
     <script>
         const toggleBtn = document.querySelector('.navbar__toggle');
         const navLinks = document.querySelector('.navbar__links');
-
         toggleBtn.addEventListener('click', () => {
             navLinks.classList.toggle('is-open');
         });

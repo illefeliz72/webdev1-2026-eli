@@ -60,6 +60,10 @@ ul {
     font-weight: 500;
     margin-top: 16px;
 }
+.navbar__links.is-open {
+  display: flex;
+  flex-direction: column;
+}
 
 .navbar_links a {
     display: block;
@@ -171,7 +175,7 @@ ul {
     padding: 32px 24px;
     border-bottom: 1px solid #e0e0e0;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
-    transition: box-shadow 0.2s ease, transform 0.2s ease;
+    transition: box-shadow 0.2s ease, transform 0.2s ease-in;
 }
 
 .skill-card_number {
@@ -263,7 +267,10 @@ ul {
     }
 
     .navbar_toggle {
-        display: none;
+        display: block;
+        font-size: 24px;
+        background: none;
+        border: none;
     }
 
     .navbar_links {
@@ -323,7 +330,8 @@ ul {
     }
 
     .hero_panel {
-        flex: 1;
+        display: flex;
+        flex-direction: column;
         margin-top: 0;
     }
 
@@ -334,7 +342,7 @@ ul {
     }
 
     .skills_grid {
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(2, 1fr);
     }
 
     .skill-card--wide {
@@ -345,3 +353,17 @@ ul {
         padding: 40px 60px;
     }
 }
+
+/*
+checkpont 1
+The section i was most suprised is probably the hero section because,
+just by looking to the code itself i can tell that it is a
+section that is going to be very important in the website.
+It is also the section that is going to be very interactive and engaging for the user to interact at least,
+and it is going to be a section that is going to be very important for the user to 
+understand what the website is about.
+
+checkpint 2
+The cramp part i was hardly to get is the skill section because
+, yesterday i was trying to understand where the code would function and how it will work so i do trial and error this time and i can tell itll make my work more complicated than it is.
+*/
